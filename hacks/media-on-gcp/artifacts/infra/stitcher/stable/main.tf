@@ -22,6 +22,11 @@ module "stitcher-machine" {
 
       echo ">>> Starting startup script..."
 
+      echo "> Assuming SA identity..."
+      # gcloud config set project media-on-gcp-storage  # 669648730623 
+      # gcloud auth activate-service-account --key-file=media-on-gcp-stream-manager.json
+1
+
       cat <<EOF > request-create-config.json
 {
   "sourceUri": "https://cdn.endpoints.${var.project_id}.cloud.goog/live/disk0/channel1/HLS/channel1.m3u8",
@@ -42,7 +47,6 @@ EOF
           "https://videostitcher.googleapis.com/v1/projects/669648730623/locations/europe-west1/liveConfigs?liveConfigId=${var.project_id}"
 
       echo ">>> Startup script finished."
-    EOT
   }
 }
 
