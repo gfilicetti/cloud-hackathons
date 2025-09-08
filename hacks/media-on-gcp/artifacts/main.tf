@@ -12,12 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-resource "google_project_iam_member" "imageuser_role" {
-  project = var.host_gcp_project_id
-  role    = "roles/compute.imageUser"
-  member  = "serviceAccount:${local.project.number}@cloudservices.gserviceaccount.com"
-}
-
 module "ateme" {
   source = "./infra/ateme/stable"
 

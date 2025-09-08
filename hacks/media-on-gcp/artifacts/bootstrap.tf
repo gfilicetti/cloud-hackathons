@@ -41,3 +41,9 @@ resource "google_project_iam_member" "centralized_project_binding" {
   role    = "roles/owner"
   member  = "serviceAccount:${var.host_centralized_serviceaccount_name}@${var.host_gcp_project_id}.iam.gserviceaccount.com"
 }
+
+resource "google_project_iam_member" "imageuser_role" {
+  project = var.host_gcp_project_id
+  role    = "roles/compute.imageUser"
+  member  = "serviceAccount:${local.project.number}@cloudservices.gserviceaccount.com"
+}
