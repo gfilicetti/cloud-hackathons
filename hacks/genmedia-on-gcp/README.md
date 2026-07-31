@@ -239,7 +239,7 @@ Finally, add these audio tracks to the video you assembled in Challenge 4 in the
 
 ### Introduction
 
-Music is an important layer of emotion in your ad. To complete your masterpiece, you will use Google’s Lyria model to compose a custom piece of background music that complements the visuals and voice-over.
+Music is an important layer of emotion in your teaser. To complete your masterpiece, you will use Google’s Lyria model to compose a custom piece of background music that complements the visuals and voice-over.
 
 ### Description
 
