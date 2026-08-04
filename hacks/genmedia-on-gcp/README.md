@@ -1,10 +1,10 @@
-# Character Creation for Krapopolis: From Concept to Creation with GenMedia
+# The Birth of a New Krapopolis Citizen: From Concept to Creation with GenMedia
 
 ## Introduction
 
 Welcome to the future of animation! In this workshop, you will take on the role of a member of the creative team for the animated series Krapopolis. Your mission is to create a compelling 45- 60  second teaser for a new character for the show. 
 
-![Challenge Overview](./images/easy-ads-overview.png)
+![Challenge Overview](./images/character-creation-overview.png)
 
 This isn’t about writing code. It’s about mastering the art of the prompt. You will use Google Cloud’s generative AI tools within Agent Platform Studio to bring your vision to life. The challenge lies in guiding these models to produce a final teaser that is not just aesthetically pleasing, but also coherent, consistent, and on-brand, complete with multilingual voice-over, graphic overlays and a custom soundtrack.
 
@@ -39,7 +39,7 @@ This hack will help you master the following skills:
 ## Prerequisites
 
 - Basic understanding of generative AI concepts (text-to-image, text-to-video, text-to-speech).  
-- Access to a Google Cloud project with Agent Platform Studio enabled, including access to Gemini, Veo, Gemini TTS, and Lyria models.  
+- Access to a Google Cloud project with Agent Platform Studio enabled, including access to Gemini, Omni, Gemini TTS, and Lyria models.  
 - Access to a basic video editing tool (e.g., Google Vids, DaVinci Resolve, Adobe Premiere Pro, CapCut, iMovie, or any online editor).
 
 ## Contributors
@@ -160,7 +160,7 @@ With your storyboard and character  created, it’s time to bring your vision to
 
 ### Description
 
-Using the Gemini Omni Flash or Veo family of models in Agent Platform Studio, generate video clips for each of your storyboard scenes from Challenge 2. Make sure you use your generated images as references in your prompts to guide the model.
+Using the Gemini Omni Flash family of models in Agent Platform Studio, generate video clips for each of your storyboard scenes from Challenge 2. Make sure you use your generated images as references in your prompts to guide the model.
 
 > [!IMPORTANT]  
 > It’s fine to have background sound or noises for some parts of your video, but keep in mind that you’ll be generating voice-overs in a later challenge. Also, if you need to have dialog that syncs with lips on the screen, that needs to be done during video creation time.
@@ -179,8 +179,8 @@ Once finished, store your favorite clips for each scene in the storage bucket pr
 
 ### Learning Resources
 
-- [Generate videos with Veo](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/overview)
-- [Veo Prompting Guide](https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-veo-3-1)
+- [Generate videos with Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/overview)
+- [Omni Prompting Guide](https://deepmind.google/models/gemini-omni/prompt-guide/)
 
 ### Tips
 
