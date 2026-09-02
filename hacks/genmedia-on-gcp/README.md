@@ -252,7 +252,7 @@ Once you have a track you’re happy with, add it as a final audio layer to your
 - A music track is generated for the entire length of the teaser.
 - The music’s mood and style align with the character's core vibe.
 - The music is successfully added to the video, creating a final, polished ad with visuals, voice-over, and a soundtrack.
-- You’ve exported your final ad as an MP4 file.
+- You've exported your final video as an MP4 file.
 
 ### Tips
 
