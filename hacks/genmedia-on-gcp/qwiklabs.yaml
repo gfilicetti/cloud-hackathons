@@ -13,10 +13,10 @@
 # limitations under the License.
 schema_version: 2
 default_locale: en
-title: "[gHacks] Easy Ads: From Concept to Creation with GenMedia"
-description: "In this workshop, you'll step into the role of a creative director at a cutting-edge ad agency. 
-  Your mission is to create a compelling 20-30 second video advertisement for a revolutionary new product 
-  using Generative Media capabilities on Google Cloud."
+title: "[gHacks] New Citizen of Cymbal Circuit: From Concept to Creation with GenMedia"
+description: "In this workshop, you will join the creative team for the animated series Cymbal Circuit.
+  Your mission is to create a compelling 45-60 second character teaser introducing a new citizen of
+  Cymbal Arcology using Generative Media capabilities on Google Cloud."
 instruction:
   type: md
   uri: instructions/en.md

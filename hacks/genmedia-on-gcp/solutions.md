@@ -1,126 +1,119 @@
-# Easy Ads: From Concept to Creation with GenMedia
+# New Citizen of Cymbal Circuit: From Concept to Creation with GenMedia
 
 ## Introduction
 
-Welcome to the coach's guide for the *Easy Ads: From Concept to Creation with GenMedia* gHack. Here you will find links to specific guidance for coaches for each of the challenges.
+Welcome to the coach's guide for the *New Citizen of Cymbal Circuit: From Concept to Creation with GenMedia* gHack. Here you will find links to specific guidance for coaches for each of the challenges.
 
 > [!NOTE]  
 > If you are a gHacks participant, this is the answer guide. Don't cheat yourself by looking at this guide during the hack!
 
 ## Coach's Guides
 
-## Challenges
+- Challenge 1: From Idea to Character Narrative
+- Challenge 2: The Visual Blueprint
+- Challenge 3: From Stills to Motion
+- Challenge 4: The Assembly
+- Challenge 5: Giving It a Voice
+- Challenge 6: The Soundtrack
 
-- Challenge 1: From Product to Narrative  
-- Challenge 2: The Visual Blueprint  
-- Challenge 3: From Stills to Motion  
-- Challenge 4: The Assembly  
-- Challenge 5: Giving It a Voice  
-- Challenge 6: The Soundtrack  
-
-## Challenge 1: From Product to Narrative
+## Challenge 1: From Idea to Character Narrative
 
 ### Notes & Guidance
 
-If the participants are using Agent Platform Studio for generating the story, they should turn on auto-save. This way they can keep track of their progress and easily hand over the generated descriptions to the next driver.
+If the participants are using Agent Platform Studio for generating the character backstory and scene descriptions, encourage them to turn on auto-save or keep their final outputs in a shared Google Doc. This way they can keep track of their progress and easily hand over the generated descriptions to the next driver.
 
 > [!NOTE]  
-> As mentioned in the instructions using Gemini is fair game, but using the first best response might lead to generic outputs, so adding a bit of creativity, or a few more iterations, would make the end results better.
+> As mentioned in the instructions, using Gemini is fair game, but using the first response verbatim often leads to generic outputs (like yet another architect named Elara). Adding their own creative twist or iterating a couple of times produces much stronger character concepts.
 
-It is helpful to have generic system instructions when using Gemini, although there would be great variety, something like that captures what we expect (the purpose and the subject):
+It is helpful for teams to set clear context or system instructions when using Gemini so the generated material fits *Cymbal Circuit*:
 
 ```text
-We're creating an ad for a product called The Cymbal Pod which is a single person, urban transport vehicle that hovers silently and moves quietly through the world.
+We are creating a 45-60 second animated character teaser introducing a brand-new citizen to the series Cymbal Circuit. Set in Cymbal Arcology—split between sunlit, bio-engineered Cymbal Green above and neon-drenched Circuit Ward below, with siblings Ori and Rook running a border transit hub—help us design a distinctive, visually memorable character and scene breakdown.
 ```
 
-Although it's hard to assess the quality of the deliverables, these should be consistent, coherent, on-brand and brief.
+Although it's subjective to assess creative deliverables, teams' outputs should be consistent, coherent, faithful to the *Cymbal Circuit* setting, and concise.
 
-We're expecting *at least* three scenes, but it makes sense to have more (and shorter) scenes. Veo will struggle if there's too much happening in a single scene. The snippet below is from *Veo Prompting Best Practices*:
+We're expecting *at least* three scenes, and having 5-7 shorter, focused shots works best for a 45-60 second teaser. Video generation models struggle when too many distinct events are crammed into a single clip:
 
-> Attempting to prompt "A knight battles a dragon, then flies on its back to a castle, then attends a feast" in a single prompt for an 8-second clip will likely result in a muddled or incomplete depiction of one small part, or a very rushed and incoherent sequence. Instead, generate each distinct part as a separate clip if needed
+> Attempting to prompt "A courier leaps off a sky-garden balcony, rides a cargo lift into Circuit Ward, and haggles with a synth-bot merchant" in a single clip will likely result in a muddled or incomplete sequence. Instead, break each beat into its own focused storyboard scene and video clip.
+
+Encourage teams to spotlight *their new character* visually rather than trying to design full reference sheets for Ori, Rook, and an entire cast—ties to Ori and Rook's transit hub can easily be woven in through setting details or voice-over narration.
 
 #### Pro Tips for the Students
 
-- Take **5 mins** with your team discussing what the brand guidelines, product and protagonist should be like. Be creative! Don't waste time here.
-- See the example below and use Gemini to help you write.  
-- Focus on your story and keep in mind that you have 20-30 seconds to tell that story. Each scene is about 8 seconds.  
-- Don't try to squeeze too many different things in a single scene. Keep it simple.  
-- Parallelize your work.
-  - One person can work on the POD/vehicle/Product design  
-  - One person on Styling - think about your favourite movie and their color pallets. [Some ideas here](https://digitalsynopsis.com/design/cinema-palettes-famous-movie-colors/#google_vignette)  
-  - One person on the Protagonist  
-  - Rest work on a storyline/narrative.
+- Take **5-10 mins** with your team discussing who your character is, whether they belong to *Cymbal Green*, *Circuit Ward*, or the border between them, and what animation style fits best. Be creative and don't overthink!
+- Focus on your story and keep in mind that you have 45-60 seconds to tell it. Keep each scene focused on one clear action or moment.
+- Parallelize your work:
+  - One person can work on the Character Core Identity and detailed physical/wardrobe description.
+  - One person on Animation Style and Color Palette—contrast the warm sunlit greens/golds of *Cymbal Green* with the electric magentas/cyans of *Circuit Ward*. [Cinema palette inspiration here](https://digitalsynopsis.com/design/cinema-palettes-famous-movie-colors/).
+  - Rest of the team on the scene-by-scene storyline, title card, and stinger.
 
 ## Challenge 2: The Visual Blueprint
 
 ### Notes & Guidance
 
-The idea is that the participants should use the descriptions from Challenge 1, and use either Gemini or *Help me write* capabilities with Agent Platform Studio to generate the required prompts. Nano Banana can be used to create the original images as well as to generate the different angles.
+Participants should take their descriptions from Challenge 1 and use either Gemini or the *AI-powered prompt writing* capabilities in Agent Platform Studio to craft image generation prompts. *Gemini Native Image* (aka *Nano Banana*) should be used both to establish the initial character look and to generate multi-angle views (or a combined character contact sheet).
 
 > [!IMPORTANT]  
-> Participants should try to stay away from *Imagen* family of models, these are not well suited for this task. *Gemini Native Image* (aka: *Nano Banana*) is the recommended model.
+> Participants should avoid using the *Imagen* family of models for iterative multi-angle character sheets, as *Gemini Native Image* (aka *Nano Banana*) is much better suited for conversational subject consistency across shots.
 
-For the storyboard scene generation again Nano Banana would be the best fit. They can start uploading the relevant protagonist and product pictures together with the text of the their storyboard scene (maybe optimized through Gemini or *Help me write* capabilities) to generate the images.
+For storyboard scene generation, *Nano Banana* is again the recommended choice. Teams should supply their character reference image(s) (or contact sheet) alongside each scene description to generate 16:9 storyboard frames.
 
 > [!WARNING]  
-> At the time of this writing Nano Banana in Agent Platform Studio has a limit of 10MB, so if there are too many images inserted in a single conversation, things will fail. Also there are limits to how many images can be included in a single prompt (3 for Nano Banana at the moment), if the participants go beyond that limit, Nano Banana will silently ignore those. Participants should use multiple conversations and/or fewer images.
+> Keep an eye on request payload and reference image limits in Agent Platform Studio. Including too many large images in a single conversation or exceeding the model's per-prompt reference image limit can cause errors or cause extra images to be ignored. Encourage participants to combine angles into a single contact sheet, start fresh conversations per scene when needed, and import assets directly from their Cloud Storage bucket.
 
 #### Pro Tips for the Students
 
-- The more details provided by the output of the previous challenge, the more consistent your images will be.
-- Avoid too many things at once. Keep the scene clean. Focus on a good storyline. It can be funny, it can be emotional.  
-- Google Models take IP and Safety very seriously. Do not use any known persons, products likeness or names. Safety filter will trigger if Gemini detects such references in the prompt.  
-- Have a distinct tagline and logo.
+- The more specific the visual details from Challenge 1 (silhouette, clothing, colors, signature props), the more consistent your character will look across storyboard frames.
+- Keep compositions clean and make sure every storyboard frame is generated in **16:9** format so it maps directly to Challenge 3's video generation.
+- Google models enforce IP and Safety filters strictly. Do **not** reference real people, trademarked animation studios, or copyrighted film/show characters—describe the visual style directly instead (e.g., "painterly 2.5D cel-shaded animation with expressive brushwork").
+- Generate a clean title card or graphic overlay asset if you want to feature your character's name and stinger visually in Challenge 4.
 
 ## Challenge 3: From Stills to Motion
 
 ### Notes & Guidance
 
-The storyboard images created in the previous challenge should be used as a *Reference* to generate the video clips. If the participants gloss over this, they will struggle with consistency. Similarly, just like the previous challenge, **DO NOT** let them struggle for too long.
+The 16:9 storyboard images and character sheet created in Challenge 2 **must** be used as visual references (such as start/end frames or subject references) when prompting the *Gemini Omni Flash* family of models in Agent Platform Studio. If participants skip image references and rely on text alone, their character's appearance will drift between clips. **DO NOT** let teams struggle too long before checking how they are passing reference images.
 
-There's a plethora of different options here, participants can use the story board imags as *Reference*s, or generate start and end frames based on the story board and use those for the newer *Veo* models.
+Remind teams that if they want on-screen lip-synced dialogue spoken directly by their character, they should include that dialogue in the *Gemini Omni Flash* video prompt at generation time; narrator voice-overs and off-screen lines will be layered in during Challenge 5.
 
 #### Pro Tips for the Students
 
-- In the interest of time and so that everyone gets to play, parallelize this task across your team.
-- Video generation is time-intensive. To optimize efficiency, we recommend that **two or three team members simultaneously generate distinct video sets**. Afterwards, compare and select the most effective clips, or regenerate as necessary. Do not delay progress.
-- For enhanced consistency, consider **utilizing a screenshot of the final frame** from Video 1 as the initiating frame for Video 2.
-- Upload **3-5** images and detailed descriptions.
-- Can't emphasize enough to go through this guide [Veo on Agent Platform video generation prompt guide](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/video-gen-prompt-guide). This separates a great shot from a good shot.
-- Google Models take IP and Safety very seriously. Do not use any known persons, products, films, references, likeness or names. Safety filter will trigger if Gemini detects such references in the prompt.
-- If you see your character develop discrepancies between scenes, like their look changes, go back to the previous challenge and develop better images.
-- Also if certain actions are not consistent (opening doors differently), include reference images for those.
+- Video generation takes time—parallelize scenes across **two or three team members** simultaneously, then compare and pick the best clips in your shared Cloud Storage bucket.
+- For smoother shot-to-shot continuity between consecutive beats, consider using the final frame of Scene 1 as the starting frame for Scene 2.
+- Review the [Generate videos with Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/overview) docs and the [Omni Prompting Guide](https://deepmind.google/models/gemini-omni/prompt-guide/) to direct camera movement, lighting, and character motion clearly.
+- Keep prompts free of real actors, directors, copyrighted franchises, or studio names so IP and safety filters don't block video generation.
+- If a character's design drifts in a clip, return to Challenge 2 to refine the reference frame rather than fighting the video prompt alone.
 
 ## Challenge 4: The Assembly
 
 ### Notes & Guidance
 
-#### Video Editor
+In the remaining challenges, teams assemble their final 45-60 second character teaser. Unless a team member already prefers a local non-linear editor (DaVinci Resolve, Premiere Pro, Final Cut Pro, CapCut, iMovie), strongly recommend **Google Vids**.
 
-In the rest of this gHack's challenges, you will be piecing together your final ad video. Unless you prefer your own editing tools (Adobe Premiere Pro, Final Cut Pro, DaVinci Resolve, etc), we strongly recommend using Google Vids.
-
-Google Vids is a web-based video creation app designed to make producing professional videos as simple as creating a slide deck without any prior video editing experience. It is available on any Google Workspace account and also on personal gmail accounts if necessary.
+Google Vids is a web-based video creation app that makes assembling clips, text overlays, and multi-track audio as approachable as editing a slide deck, with no prior video editing experience required.
 
 #### Pro Tips for the Students
 
-- Don't worry about the sound at this step. Just focus on the complete Video. You will add a voiceover in the next step  
-- You could use Gemini for generating text as well, but in case you're not getting what you want, you can just use text elements within your video editor.
+- Focus first on visual pacing, clean cuts, and narrative flow across your 45-60 second timeline—voice-over and music will be layered in Challenges 5 and 6.
+- Add your character's title card and stinger text at the end using either Challenge 2 graphics or built-in text overlays in your video editor.
 
 ## Challenge 5: Giving It a Voice
 
 ### Notes & Guidance
 
-You'll have the choice to use Google's Chirp 3 HD model or Gemini itself to create the voice-overs. The difference between these two lies in the source of vocal identity and style. Chirp functions as an advanced text-to-speech engine, requiring a pre-existing voice, either from its library or a custom clone, to articulate the provided text with high fidelity; any stylistic nuance is primarily achieved through manipulating the text itself with punctuation and pacing adjustments. In contrast, Gemini operates as a true generative voice model, creating the vocal characteristics and delivery style from scratch based on natural language prompts. This allows a user to conjure a voice by describing it (e.g., "a deep, soothing voice") and directing its emotional tone (e.g., "speak with excitement"), offering a layer of creative control and on-the-fly vocal design that Chirp, in this context, does not.
+Participants will use **Gemini TTS** in Agent Platform Studio to generate the voice-over tracks for their teaser. Unlike traditional text-to-speech engines that only read text in a fixed preset tone, Gemini TTS operates as an expressive generative voice model: teams can direct vocal persona, emotional delivery, and pacing using natural-language style instructions alongside their script (for example, *"Speak in a wry, streetwise tone with quick, energetic pacing, like an undercity fixer introducing a rival"*).
 
 #### Pro Tips for the Students
 
-- This is the final touch of your video. A good narrative is what you need.
-- You can sample voices and choose the right voice from the samples [here](https://docs.cloud.google.com/text-to-speech/docs/chirp3-hd).  
-- If you have already established if it's a male or female voice the choice is easier!
-- Finally, add these audio tracks in the proper places in your video sequence timeline. You can use Vids to insert the audio. You can change the speed of the audio in both Vids and in Chirp.
+- Break the voice-over into short per-scene clips rather than one monolithic audio file—it makes timing and alignment on the video editor timeline much easier.
+- Review the [Prompting tips for Gemini Text to Speech](https://docs.cloud.google.com/text-to-speech/docs/gemini-tts#prompting_tips) to control tone, emphasis, and pacing.
+- Layer the generated audio tracks onto your timeline in Google Vids (or your chosen editor) so they land cleanly on the right visual beats without clashing with any on-screen dialogue from Challenge 3.
 
 ## Challenge 6: The Soundtrack
 
 ### Notes & Guidance
 
-Including instrument information in the prompt can be helpful.
+Participants will use **Lyria** in Agent Platform Studio to compose custom background music for their 45-60 second teaser. Because Lyria responds best to musical and instrumental terminology, coach teams to describe specific instruments, tempo, and mood rather than story plot points (for example, blending warm acoustic plucks and airy flutes for *Cymbal Green* with pulsing analog synth bass and crisp electronic percussion for *Circuit Ward*).
+
+Remind teams to duck or lower the soundtrack volume in their video editor so the voice-over from Challenge 5 remains clear and intelligible, then export the finished teaser as an **MP4** file.
