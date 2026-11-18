@@ -62,6 +62,13 @@ Introduce a new character to the animated series *Cymbal Circuit*.
 
 Context: *Cymbal Circuit* is an adventurous, witty animated series set in **Cymbal Arcology**, a towering vertical megacity split between two clashing worlds: **Cymbal Green**, the sunlit, bio-engineered upper spires of lush sky-gardens and utopian eco-guilds, and **Circuit Ward**, the neon-drenched undercity of salvaged cybernetics, night markets, street inventors, and free-thinking synth-bots. At the heart of the series are estranged siblings **Ori** (a perfectionist *Cymbal Green* bio-designer) and **Rook** (a scrappy *Circuit Ward* bot-modder), who co-run a bustling transit hub on the border between the tiers—constantly caught between eco-guild politics above and neon-street hustlers below.
 
+> [!TIP]  
+> **Universe Lookbook & Inspiration Pack (`gs://ghack-genmedia-omni-dev`)**: Want a visual spark before you start writing? Explore these **optional** concept plates, ambient motion clips, and logo explorations created for the *Cymbal Circuit* universe (you can also import any `gs://ghack-genmedia-omni-dev/...` URI directly in Agent Platform Studio). Treat them purely as open-ended creative inspiration—you are encouraged to invent your own corners of the arcology, choose any animation style, and design your own original title graphics:
+>
+> - **World Plates**: [Cymbal Arcology Wide](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-cymbal-arcology-wide.png) | [Cymbal Green](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-cymbal-green.png) | [Circuit Ward](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-circuit-ward.png) | [Border Transit Hub](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-border-transit-hub.png)
+> - **Ambient Motion Clips**: [Cymbal Green Flythrough](https://storage.googleapis.com/ghack-genmedia-omni-dev/motion-clips/motion-cymbal-green.mp4) | [Circuit Ward Canyon Flight](https://storage.googleapis.com/ghack-genmedia-omni-dev/motion-clips/motion-circuit-ward.mp4) | [Border Transit Hub Ascent](https://storage.googleapis.com/ghack-genmedia-omni-dev/motion-clips/motion-border-hub.mp4)
+> - **Series Branding Exploration**: [Cymbal Circuit Logo Concept](https://storage.googleapis.com/ghack-genmedia-omni-dev/examples/cymbal-circuit-logo.png)
+
 > [!NOTE]  
 > This challenge is all about building our story and character. We're expecting you to craft descriptions, which we'll use in the subsequent challenges to create prompts. Your descriptions should be detailed enough to capture the essence of your story, but keep in mind that we're not designing prompts yet.
 
@@ -120,7 +127,7 @@ We will now create our character. Using Gemini Native Image (aka: Nano Banana), 
 Once you have your character's image, generate more images that depict the character at different angles (front, side, back, 3/4, etc).
 
 > [!NOTE]  
-> Given the image limit as context when generating videos and images, consider creating a "contact sheet" for the character with all images at the various angles together in one image file.
+> Given the image limit as context when generating videos and images, consider creating a "contact sheet" for the character with all images at the various angles together in one image file. For layout inspiration using minor background citizens, see the [Circuit Ward Contact Sheet Example](https://storage.googleapis.com/ghack-genmedia-omni-dev/examples/sample-contact-sheet-circuit-ward.png) and [Cymbal Green Contact Sheet Example](https://storage.googleapis.com/ghack-genmedia-omni-dev/examples/sample-contact-sheet-cymbal-green.png) in `gs://ghack-genmedia-omni-dev/examples/`.
 
 Next, create images for your storyboard visualizing the scenes crafted in the previous challenge. These storyboard images should contain accurate and consistent depictions of the character when they are shown.
 

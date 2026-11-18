@@ -39,6 +39,11 @@ We're expecting *at least* three scenes, and having 5-7 shorter, focused shots w
 
 Encourage teams to spotlight *their new character* visually rather than trying to design full reference sheets for Ori, Rook, and an entire cast—ties to Ori and Rook's transit hub can easily be woven in through setting details or voice-over narration.
 
+During kickoff, you can also walk teams through the **Universe Lookbook & Inspiration Pack** hosted in `gs://ghack-genmedia-omni-dev/` (linked in Challenge 1 of the student guide, including the four `world-plates/`, three `motion-clips/`, and `examples/cymbal-circuit-logo.png`). Emphasize two coaching points when sharing these assets:
+
+- **Inspiration, Not a Rigid Template**: Although the sample pack uses a stylized 3D feature-animation look, teams are completely free—and encouraged—to pick their own animation aesthetic (2D cyberpunk anime, painterly cel-shading, stop-motion claymation, etc.), invent new neighborhoods across the arcology, and create their own title cards rather than feeling locked into the reference plates.
+- **Why Ori & Rook Turnarounds Are Intentionally Omitted**: Character sheets for Ori and Rook are left out on purpose so teams focus 100% of their visual budget and reference slots on their own original protagonist instead of turning the teaser into an ensemble piece.
+
 #### Pro Tips for the Students
 
 - Take **5-10 mins** with your team discussing who your character is, whether they belong to *Cymbal Green*, *Circuit Ward*, or the border between them, and what animation style fits best. Be creative and don't overthink!
@@ -52,7 +57,7 @@ Encourage teams to spotlight *their new character* visually rather than trying t
 
 ### Notes & Guidance
 
-Participants should take their descriptions from Challenge 1 and use either Gemini or the *AI-powered prompt writing* capabilities in Agent Platform Studio to craft image generation prompts. *Gemini Native Image* (aka *Nano Banana*) should be used both to establish the initial character look and to generate multi-angle views (or a combined character contact sheet).
+Participants should take their descriptions from Challenge 1 and use either Gemini or the *AI-powered prompt writing* capabilities in Agent Platform Studio to craft image generation prompts. *Gemini Native Image* (aka *Nano Banana*) should be used both to establish the initial character look and to generate multi-angle views (or a combined character contact sheet). If teams ask what a clean 16:9 turnaround sheet looks like, point them to the minor background-character examples at [sample-contact-sheet-circuit-ward.png](https://storage.googleapis.com/ghack-genmedia-omni-dev/examples/sample-contact-sheet-circuit-ward.png) and [sample-contact-sheet-cymbal-green.png](https://storage.googleapis.com/ghack-genmedia-omni-dev/examples/sample-contact-sheet-cymbal-green.png) in `gs://ghack-genmedia-omni-dev/examples/`.
 
 > [!IMPORTANT]  
 > Participants should avoid using the *Imagen* family of models for iterative multi-angle character sheets, as *Gemini Native Image* (aka *Nano Banana*) is much better suited for conversational subject consistency across shots.
