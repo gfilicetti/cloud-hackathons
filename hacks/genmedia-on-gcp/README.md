@@ -6,7 +6,7 @@ Welcome to the future of animation! In this workshop, you will take on the role 
 
 ![Challenge Overview](./images/character-creation-overview.png)
 
-This isn't about writing code. It's about mastering the art of the prompt. You will use Google Cloud's generative AI tools within Gemini Platform Studio to bring your vision to life. The challenge lies in guiding these models to produce a final teaser that is not just aesthetically pleasing, but also coherent, consistent, and true to the show's world, complete with expressive voice-over, graphic overlays, and a custom soundtrack.
+This isn't about writing code. It's about mastering the art of the prompt. You will use Google Cloud's generative AI tools within Agent Studio to bring your vision to life. The challenge lies in guiding these models to produce a final teaser that is not just aesthetically pleasing, but also coherent, consistent, and true to the show's world, complete with expressive voice-over, graphic overlays, and a custom soundtrack.
 
 ## Learning Objectives
 
@@ -39,7 +39,7 @@ This hack will help you master the following skills:
 ## Prerequisites
 
 - Basic understanding of generative AI concepts (text-to-image, text-to-video, text-to-speech).
-- Access to a Google Cloud project with Agent Platform Studio enabled, including access to Gemini, Gemini Native Image (Nano Banana), Gemini Omni Flash, Gemini TTS, and Lyria models.
+- Access to a Google Cloud project with Agent Studio enabled, including access to Gemini, Gemini Native Image (Nano Banana), Gemini Omni Flash, Gemini TTS, and Lyria models.
 - Access to a basic video editing tool (e.g., Google Vids, DaVinci Resolve, Adobe Premiere Pro, CapCut, iMovie, or any online editor).
 
 ## Contributors
@@ -68,7 +68,7 @@ Your mission is to introduce **a single new character** to the animated series *
 Connecting these two clashing halves is a central vertical conduit and the bustling **Transit Hub**, a crowded crossroads where citizens from both sides of the city cross paths every day.
 
 > [!TIP]  
-> **Universe Lookbook & Inspiration Pack (`gs://ghack-genmedia-omni-dev`)**: Want a visual spark before you start writing? Explore these **optional** concept plates, ambient motion clips, and logo explorations created for the *Cymbal Circuit* universe (you can also import any `gs://ghack-genmedia-omni-dev/...` URI directly in Agent Platform Studio). Treat them purely as open-ended creative inspiration—you are encouraged to invent your own corners of Cymbal, choose any animation style, and design your own original title graphics:
+> **Universe Lookbook & Inspiration Pack (`gs://ghack-genmedia-omni-dev`)**: Want a visual spark before you start writing? Explore these **optional** concept plates, ambient motion clips, and logo explorations created for the *Cymbal Circuit* universe (you can also import any `gs://ghack-genmedia-omni-dev/...` URI directly in Agent Studio). Treat them purely as open-ended creative inspiration—you are encouraged to invent your own corners of Cymbal, choose any animation style, and design your own original title graphics:
 >
 > - **World Plates**: [Cymbal Wide](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-cymbal-arcology-wide.png) | [Cymbal Green](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-cymbal-green.png) | [Circuit Ward](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-circuit-ward.png) | [Transit Hub](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-border-transit-hub.png)
 > - **Ambient Motion Clips**: [Cymbal Green Flythrough](https://storage.googleapis.com/ghack-genmedia-omni-dev/motion-clips/motion-cymbal-green.mp4) | [Circuit Ward Canyon Flight](https://storage.googleapis.com/ghack-genmedia-omni-dev/motion-clips/motion-circuit-ward.mp4) | [Transit Hub Ascent](https://storage.googleapis.com/ghack-genmedia-omni-dev/motion-clips/motion-border-hub.mp4)
@@ -84,7 +84,7 @@ First, create a document (e.g. Google Doc) that's shared with your whole team, s
 Then, start by designing the Core Identity for the character, which should include:
 
 - Character Name: [Insert Name]
-- Animation Style: [e.g., painterly 2.5D cel-shaded animation, stylized 3D CG animation, 2D cyberpunk anime, stop-motion claymation]
+- Animation Style: [e.g., stylized 3D CG animation, 2D cyberpunk anime, stop-motion claymation]
 - Core Vibe/Keywords: [e.g., mysterious and brooding, hyperactive and colorful, clumsy but brilliant]
 - Key Visual Features: [e.g., bioluminescent vine tattoos, wears an oversized patched flight jacket, carries a hovering multi-tool]
 
@@ -155,7 +155,7 @@ We've already created a storage bucket for you; make sure that all of this work 
 
 ### Learning Resources
 
-- [Agent Platform Studio Quickstart](https://docs.cloud.google.com/gemini-enterprise-agent-platform/agent-studio/quickstart)
+- [Agent Studio Quickstart](https://docs.cloud.google.com/gemini-enterprise-agent-platform/agent-studio/quickstart)
 - [Nano Banana Prompting Guide](https://developers.googleblog.com/en/how-to-prompt-gemini-2-5-flash-image-generation-for-the-best-results/)
 
 ### Tips
@@ -172,7 +172,7 @@ With your storyboard and character created, it's time to bring your vision to li
 
 ### Description
 
-Using the Gemini Omni Flash family of models in Agent Platform Studio, generate video clips for each of your storyboard scenes from Challenge 2. Make sure you use your generated images as references in your prompts to guide the model.
+Using the Gemini Omni Flash family of models in Agent Studio, generate video clips for each of your storyboard scenes from Challenge 2. Make sure you use your generated images as references in your prompts to guide the model.
 
 > [!IMPORTANT]  
 > It's fine to have background sound or noises for some parts of your video, but keep in mind that you'll be generating voice-overs in a later challenge. Also, if you need to have dialog that syncs with lips on the screen, that needs to be done during video creation time.
@@ -191,7 +191,7 @@ Once finished, store your favorite clips for each scene in the storage bucket pr
 
 ### Learning Resources
 
-- [Generate videos with Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/overview)
+- [Generate videos with Gemini Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/overview)
 - [Omni Prompting Guide](https://deepmind.google/models/gemini-omni/prompt-guide/)
 
 ### Tips
