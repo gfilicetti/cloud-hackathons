@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Welcome to the future of animation! In this workshop, you will take on the role of a member of the creative team for the animated series *Cymbal Circuit*. Your mission is to create a compelling 45-60 second teaser for a single new character joining the show.
+Welcome to the future of animation! In this workshop, you will take on the role of a member of the creative team for the animated series *Cymbal Circuit*. Your mission is to create a compelling teaser for a new character joining the show.
 
 ![Challenge Overview](./images/character-creation-overview.png)
 
-This isn't about writing code. It's about mastering the art of the prompt. You will use Google Cloud's generative AI tools within Agent Platform Studio to bring your vision to life. The challenge lies in guiding these models to produce a final teaser that is not just aesthetically pleasing, but also coherent, consistent, and true to the show's world, complete with expressive voice-over, graphic overlays, and a custom soundtrack.
+This isn't about writing code. It's about mastering the art of the prompt. You will use Google Cloud's generative AI tools within Gemini Platform Studio to bring your vision to life. The challenge lies in guiding these models to produce a final teaser that is not just aesthetically pleasing, but also coherent, consistent, and true to the show's world, complete with expressive voice-over, graphic overlays, and a custom soundtrack.
 
 ## Learning Objectives
 
@@ -44,8 +44,8 @@ This hack will help you master the following skills:
 
 ## Contributors
 
-- Kishen Gopinath
 - Gino Filicetti
+- Kishen Gopinath
 - Murat Eken
 - Jeff Katzen
 - Justin Grayston
