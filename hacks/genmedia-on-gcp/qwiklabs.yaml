@@ -15,8 +15,8 @@ schema_version: 2
 default_locale: en
 title: "[gHacks] New Citizen of Cymbal Circuit: From Concept to Creation with GenMedia"
 description: "In this workshop, you will join the creative team for the animated series Cymbal Circuit.
-  Your mission is to create a compelling 45-60 second character teaser introducing a new citizen of
-  Cymbal Arcology using Generative Media capabilities on Google Cloud."
+  Your mission is to create a compelling 45-60 second character teaser introducing a single new citizen of
+  Cymbal using Generative Media capabilities on Google Cloud."
 instruction:
   type: md
   uri: instructions/en.md
@@ -25,7 +25,7 @@ max_duration: 420
 credits: 0
 level: fundamental
 tags:
-product_tags: 
+product_tags:
 role_tags:
 domain_tags:
 environment:

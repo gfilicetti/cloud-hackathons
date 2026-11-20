@@ -23,7 +23,7 @@ Teams are not left on their own to solve the challenges. Coaches work with each 
 - [Crash Course in AI: Formula E Edition](./hacks/genai-fe/README.md)
   > We'll analyze multimodal data to detect crashes and find the drivers that were involved by using Gemini.
 - [New Citizen of Cymbal Circuit: From Concept to Creation with GenMedia](./hacks/genmedia-on-gcp/README.md)
-  > In this hack, we'll join the creative team for the animated series *Cymbal Circuit*, set in a vertical megacity split between sunlit solarpunk spires and a neon-lit cyberpunk undercity. Our mission is to create a compelling 45-60 second teaser introducing a brand-new character using Google Cloud's generative media tools.
+  > In this hack, we'll join the creative team for the animated series *Cymbal Circuit*, set in the vertical megacity of Cymbal—split between sunlit, organic-futuristic *Cymbal Green* and neon-drenched, mechanistic *Circuit Ward*. Our mission is to create a compelling 45-60 second teaser introducing a single brand-new character using Google Cloud's generative media tools.
 - [Introduction to Agents with ADK](./hacks/adk-intro/README.md)
   > **UPDATED FOR ADK 2** This is an introduction to Agentic AI using Agent Development Kit (ADK) framework. We'll be introducing various ADK concepts step-by-step, starting with a single agent and progressively building a tool-using, collaborative multi-agent system.
 - [Custom ADK Agents and Gemini Enterprise app](./hacks/adk-ge/README.md)

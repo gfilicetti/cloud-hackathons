@@ -28,7 +28,7 @@ If the participants are using Agent Platform Studio for generating the character
 It is helpful for teams to set clear context or system instructions when using Gemini so the generated material fits *Cymbal Circuit*:
 
 ```text
-We are creating a 45-60 second animated character teaser introducing a brand-new citizen to the series Cymbal Circuit. Set in Cymbal Arcology—split between sunlit, bio-engineered Cymbal Green above and neon-drenched Circuit Ward below, with siblings Ori and Rook running a border transit hub—help us design a distinctive, visually memorable character and scene breakdown.
+We are creating a 45-60 second animated character teaser introducing a single brand-new citizen to the series Cymbal Circuit. Set in the vertical megacity of Cymbal—split between sunlit, organic-futuristic Cymbal Green and neon-drenched, mechanistic Circuit Ward, connected by the bustling Transit Hub—help us design one distinctive, visually memorable protagonist who clearly hails from either Cymbal Green or Circuit Ward, along with a focused scene breakdown.
 ```
 
 Although it's subjective to assess creative deliverables, teams' outputs should be consistent, coherent, faithful to the *Cymbal Circuit* setting, and concise.
@@ -37,16 +37,14 @@ We're expecting *at least* three scenes, and having 5-7 shorter, focused shots w
 
 > Attempting to prompt "A courier leaps off a sky-garden balcony, rides a cargo lift into Circuit Ward, and haggles with a synth-bot merchant" in a single clip will likely result in a muddled or incomplete sequence. Instead, break each beat into its own focused storyboard scene and video clip.
 
-Encourage teams to spotlight *their new character* visually rather than trying to design full reference sheets for Ori, Rook, and an entire cast—ties to Ori and Rook's transit hub can easily be woven in through setting details or voice-over narration.
+During kickoff, you can walk teams through the **Universe Lookbook & Inspiration Pack** hosted in `gs://ghack-genmedia-omni-dev/` (linked in Challenge 1 of the student guide, including the four `world-plates/`, three `motion-clips/`, and `examples/cymbal-circuit-logo.png`). Emphasize two coaching points when sharing these assets:
 
-During kickoff, you can also walk teams through the **Universe Lookbook & Inspiration Pack** hosted in `gs://ghack-genmedia-omni-dev/` (linked in Challenge 1 of the student guide, including the four `world-plates/`, three `motion-clips/`, and `examples/cymbal-circuit-logo.png`). Emphasize two coaching points when sharing these assets:
-
-- **Inspiration, Not a Rigid Template**: Although the sample pack uses a stylized 3D feature-animation look, teams are completely free—and encouraged—to pick their own animation aesthetic (2D cyberpunk anime, painterly cel-shading, stop-motion claymation, etc.), invent new neighborhoods across the arcology, and create their own title cards rather than feeling locked into the reference plates.
-- **Why Ori & Rook Turnarounds Are Intentionally Omitted**: Character sheets for Ori and Rook are left out on purpose so teams focus 100% of their visual budget and reference slots on their own original protagonist instead of turning the teaser into an ensemble piece.
+- **Inspiration, Not a Rigid Template**: Although the sample pack uses a stylized 3D feature-animation look, teams are completely free—and encouraged—to pick their own animation aesthetic (2D cyberpunk anime, painterly cel-shading, stop-motion claymation, etc.), invent new neighborhoods across Cymbal, and create their own title cards rather than feeling locked into the reference plates.
+- **One Protagonist, Distinct Home Aesthetic**: Even though the sample contact sheets depict human background citizens, teams can design any kind of citizen (human, cyborg, synth-bot, or otherwise)—as long as they spotlight **one single protagonist** whose look immediately reads as either *Cymbal Green* or *Circuit Ward*, rather than blending the two aesthetics or designing reference sheets for an entire ensemble cast.
 
 #### Pro Tips for the Students
 
-- Take **5-10 mins** with your team discussing who your character is, whether they belong to *Cymbal Green*, *Circuit Ward*, or the border between them, and what animation style fits best. Be creative and don't overthink!
+- Take **5-10 mins** with your team discussing who your character is, whether they belong to *Cymbal Green* or *Circuit Ward*, and what animation style fits best. Be creative and don't overthink!
 - Focus on your story and keep in mind that you have 45-60 seconds to tell it. Keep each scene focused on one clear action or moment.
 - Parallelize your work:
   - One person can work on the Character Core Identity and detailed physical/wardrobe description.

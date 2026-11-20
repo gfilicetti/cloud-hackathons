@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the future of animation! In this workshop, you will take on the role of a member of the creative team for the animated series *Cymbal Circuit*. Your mission is to create a compelling 45-60 second teaser for a new character joining the show.
+Welcome to the future of animation! In this workshop, you will take on the role of a member of the creative team for the animated series *Cymbal Circuit*. Your mission is to create a compelling 45-60 second teaser for a single new character joining the show.
 
 ![Challenge Overview](./images/character-creation-overview.png)
 
@@ -58,15 +58,20 @@ Every animated show has compelling characters that contribute meaningfully to th
 
 #### The Character
 
-Introduce a new character to the animated series *Cymbal Circuit*.
+Your mission is to introduce **a single new character** to the animated series *Cymbal Circuit*—someone who clearly hails from **either *Cymbal Green* or *Circuit Ward***.
 
-Context: *Cymbal Circuit* is an adventurous, witty animated series set in **Cymbal Arcology**, a towering vertical megacity split between two clashing worlds: **Cymbal Green**, the sunlit, bio-engineered upper spires of lush sky-gardens and utopian eco-guilds, and **Circuit Ward**, the neon-drenched undercity of salvaged cybernetics, night markets, street inventors, and free-thinking synth-bots. At the heart of the series are estranged siblings **Ori** (a perfectionist *Cymbal Green* bio-designer) and **Rook** (a scrappy *Circuit Ward* bot-modder), who co-run a bustling transit hub on the border between the tiers—constantly caught between eco-guild politics above and neon-street hustlers below.
+**Context:** *Cymbal Circuit* is an adventurous, witty animated series set in **Cymbal**, a towering vertical megacity that evolved in two starkly different futuristic directions:
+
+- **Cymbal Green**: A sunlit organic utopia of gleaming glass towers, lush biodomes, giant canopy trees, turquoise waterways, and solar gliders. Its inhabitants reflect this refined, nature-woven world—dressed in sleek, flowing silhouettes of crisp white, botanical green, and warm gold, accented with smooth bio-ceramics and organic detailing.
+- **Circuit Ward**: A neon-drenched mechanistic undercity of massive churning cogs, industrial scaffolding, rain-slicked night markets, street inventors, and free-thinking synth-bots. Its denizens carry a rugged, streetwise grit—wearing layered utilitarian jackets, heavy workwear, salvaged gear, and exposed mechanical or glowing cybernetic modifications in electric cyan, magenta, and amber.
+
+Connecting these two clashing halves is a central vertical conduit and the bustling **Transit Hub**, a crowded crossroads where citizens from both sides of the city cross paths every day.
 
 > [!TIP]  
-> **Universe Lookbook & Inspiration Pack (`gs://ghack-genmedia-omni-dev`)**: Want a visual spark before you start writing? Explore these **optional** concept plates, ambient motion clips, and logo explorations created for the *Cymbal Circuit* universe (you can also import any `gs://ghack-genmedia-omni-dev/...` URI directly in Agent Platform Studio). Treat them purely as open-ended creative inspiration—you are encouraged to invent your own corners of the arcology, choose any animation style, and design your own original title graphics:
+> **Universe Lookbook & Inspiration Pack (`gs://ghack-genmedia-omni-dev`)**: Want a visual spark before you start writing? Explore these **optional** concept plates, ambient motion clips, and logo explorations created for the *Cymbal Circuit* universe (you can also import any `gs://ghack-genmedia-omni-dev/...` URI directly in Agent Platform Studio). Treat them purely as open-ended creative inspiration—you are encouraged to invent your own corners of Cymbal, choose any animation style, and design your own original title graphics:
 >
-> - **World Plates**: [Cymbal Arcology Wide](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-cymbal-arcology-wide.png) | [Cymbal Green](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-cymbal-green.png) | [Circuit Ward](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-circuit-ward.png) | [Border Transit Hub](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-border-transit-hub.png)
-> - **Ambient Motion Clips**: [Cymbal Green Flythrough](https://storage.googleapis.com/ghack-genmedia-omni-dev/motion-clips/motion-cymbal-green.mp4) | [Circuit Ward Canyon Flight](https://storage.googleapis.com/ghack-genmedia-omni-dev/motion-clips/motion-circuit-ward.mp4) | [Border Transit Hub Ascent](https://storage.googleapis.com/ghack-genmedia-omni-dev/motion-clips/motion-border-hub.mp4)
+> - **World Plates**: [Cymbal Wide](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-cymbal-arcology-wide.png) | [Cymbal Green](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-cymbal-green.png) | [Circuit Ward](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-circuit-ward.png) | [Transit Hub](https://storage.googleapis.com/ghack-genmedia-omni-dev/world-plates/env-border-transit-hub.png)
+> - **Ambient Motion Clips**: [Cymbal Green Flythrough](https://storage.googleapis.com/ghack-genmedia-omni-dev/motion-clips/motion-cymbal-green.mp4) | [Circuit Ward Canyon Flight](https://storage.googleapis.com/ghack-genmedia-omni-dev/motion-clips/motion-circuit-ward.mp4) | [Transit Hub Ascent](https://storage.googleapis.com/ghack-genmedia-omni-dev/motion-clips/motion-border-hub.mp4)
 > - **Series Branding Exploration**: [Cymbal Circuit Logo Concept](https://storage.googleapis.com/ghack-genmedia-omni-dev/examples/cymbal-circuit-logo.png)
 
 > [!NOTE]  
@@ -85,9 +90,9 @@ Then, start by designing the Core Identity for the character, which should inclu
 
 These characteristics will guide all the visuals we create for the teaser.
 
-Next, create a description of your character. This description needs to be detailed enough so that we can achieve consistency from shot to shot in the teaser.
+Next, create a description of your character. Focus on **one protagonist** whose look, wardrobe, and attitude unmistakably belong to either *Cymbal Green* or *Circuit Ward*, and make the description detailed enough so that we can achieve consistency from shot to shot in the teaser.
 
-Now, we'll craft an overall narrative to tell the story of the character and what makes them compelling. We will do this by creating textual descriptions of at least three scenes for a teaser describing what happens in each scene and how the character fits into Cymbal Arcology—whether they hail from *Cymbal Green*, *Circuit Ward*, or cross paths with Ori and Rook at the border transit hub.
+Now, we'll craft an overall narrative to tell the story of the character and what makes them compelling. We will do this by creating textual descriptions of at least three scenes for a teaser describing what happens in each scene and how the character fits into Cymbal—rooted in either *Cymbal Green* or *Circuit Ward*, even if their story takes them into the **Transit Hub** or across to the other side of the city.
 
 And finally, create a stinger and title for the character that leaves a lasting impression. We'll use that text in our final teaser video.
 
@@ -96,7 +101,7 @@ And finally, create a stinger and title for the character that leaves a lasting 
 
 ### Success Criteria
 
-- You have created a core identity for the character with the attributes: Character Name, Animation Style, Core Vibe/Keywords, Key Visual Features.
+- You have created a core identity for a single new character from either *Cymbal Green* or *Circuit Ward* with the attributes: Character Name, Animation Style, Core Vibe/Keywords, Key Visual Features.
 - You have created a detailed narrative of the character.
 - You have created a text description/script for at least three scenes that introduce the character into the show.
 - You have created a stinger and title for the character that leaves a lasting impression.
